@@ -24,7 +24,7 @@ public class Koneksi {
     public void connect() {
         try {
             con = DriverManager.getConnection(url, mysql_user, mysql_password);
-            System.out.println("Koneksi Berhasil");
+//            System.out.println("Koneksi Berhasil");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
